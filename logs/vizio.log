@@ -1,0 +1,4 @@
+2025-10-07T09:00:12.318245-0400 INFO vizio.py:setup_logger:34 - Logging started in file: logs\vizio.log
+2025-10-07T09:00:12.322052-0400 INFO vizio.py:process:68 - Processing 365 Vizio bundle IDs
+2025-10-07T09:00:12.322622-0400 ERROR vizio.py:process:71 - Vizio file not found: C:\workll_app_Store\All_app_class\store_validatorizio_store\philips_vizio_appstoday.parquet
+2025-10-07T09:00:12.334471-0400 INFO main.py:main:171 - Processing roku with 309 IDs

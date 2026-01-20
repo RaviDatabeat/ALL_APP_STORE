@@ -1,0 +1,145 @@
+2025-10-07T08:34:38.058394-0400 INFO apple_store.py:setup_logger:53 - Logging started in file: logs\apple_app.log
+2025-10-07T08:34:38.061710-0400 INFO apple_store.py:process:168 - Processing 170 Apple bundle IDs
+2025-10-07T08:34:41.487209-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1175746
+2025-10-07T08:34:41.488176-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 979056
+2025-10-07T08:34:41.826444-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 551376
+2025-10-07T08:34:41.827689-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G19273013772: HTTP Error 400: 
+2025-10-07T08:34:43.987839-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1074449
+2025-10-07T08:34:43.988613-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G19068012619: HTTP Error 400: 
+2025-10-07T08:34:43.989452-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 256567
+2025-10-07T08:34:43.990075-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for UP4544-CUSA01850_00-PLEX000000000000: HTTP Error 400: 
+2025-10-07T08:34:43.991678-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 952316
+2025-10-07T08:34:44.503039-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for g19171013163: HTTP Error 400: 
+2025-10-07T08:34:44.504437-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G15147002586: HTTP Error 400: 
+2025-10-07T08:34:44.505057-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G00002687241: HTTP Error 400: 
+2025-10-07T08:34:44.885091-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G16300008593: HTTP Error 400: 
+2025-10-07T08:34:44.886147-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 720908
+2025-10-07T08:34:44.886771-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G22332021078: HTTP Error 400: 
+2025-10-07T08:34:46.149915-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 20007319
+2025-10-07T08:34:46.150530-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1211462
+2025-10-07T08:34:46.151086-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1211602
+2025-10-07T08:34:46.152649-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1211646
+2025-10-07T08:34:46.153298-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1211514
+2025-10-07T08:34:46.627379-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 561660
+2025-10-07T08:34:46.629300-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1211558
+2025-10-07T08:34:46.629881-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1164062
+2025-10-07T08:34:47.005272-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 253770
+2025-10-07T08:34:47.006578-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G22273020555: HTTP Error 400: 
+2025-10-07T08:34:47.376340-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 679010
+2025-10-07T08:34:47.377368-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G21278018026: HTTP Error 400: 
+2025-10-07T08:34:47.377924-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 653328
+2025-10-07T08:34:47.434219-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1511182579
+2025-10-07T08:34:47.757118-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 245377
+2025-10-07T08:34:48.140424-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 283162
+2025-10-07T08:34:49.169684-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 265215
+2025-10-07T08:34:49.171175-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 693831
+2025-10-07T08:34:49.172197-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 693018
+2025-10-07T08:34:49.678535-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1490303146
+2025-10-07T08:34:49.679299-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 6443703389
+2025-10-07T08:34:49.679945-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 287100
+2025-10-07T08:34:49.680597-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 674930
+2025-10-07T08:34:49.681730-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 680480
+2025-10-07T08:34:50.097835-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G22242020250: HTTP Error 400: 
+2025-10-07T08:34:50.190177-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1170706
+2025-10-07T08:34:50.190823-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G00023178028: HTTP Error 400: 
+2025-10-07T08:34:50.656799-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G22154019714: HTTP Error 400: 
+2025-10-07T08:34:50.657416-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 672700
+2025-10-07T08:34:51.120113-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1576707847
+2025-10-07T08:34:51.120911-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 660814
+2025-10-07T08:34:51.121386-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 665454
+2025-10-07T08:34:51.121877-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 712823
+2025-10-07T08:34:51.521296-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 6444256883
+2025-10-07T08:34:51.522013-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1491488131
+2025-10-07T08:34:51.914993-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1664183276
+2025-10-07T08:34:51.920693-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 609824
+2025-10-07T08:34:51.921473-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1594234060
+2025-10-07T08:34:52.315269-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 225473
+2025-10-07T08:34:52.316011-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 591991
+2025-10-07T08:34:52.316840-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 256916
+2025-10-07T08:34:52.318058-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 473484
+2025-10-07T08:34:52.734519-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 200282
+2025-10-07T08:34:54.447726-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 116699
+2025-10-07T08:34:54.449376-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 619840
+2025-10-07T08:34:54.451071-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 454046591
+2025-10-07T08:34:54.451682-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 165029
+2025-10-07T08:34:54.452118-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 587444
+2025-10-07T08:34:54.952910-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 556698
+2025-10-07T08:34:54.954687-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 621084
+2025-10-07T08:34:54.955489-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 608333
+2025-10-07T08:34:54.956222-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 619737
+2025-10-07T08:34:54.956850-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 606587
+2025-10-07T08:34:56.389674-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 243023
+2025-10-07T08:34:56.390972-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 600757
+2025-10-07T08:34:56.391634-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 246759
+2025-10-07T08:34:56.392816-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G14363001015: HTTP Error 400: 
+2025-10-07T08:34:56.393526-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 623143
+2025-10-07T08:34:56.792307-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 162784
+2025-10-07T08:34:56.792840-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 600843
+2025-10-07T08:34:56.793276-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 619734
+2025-10-07T08:34:56.794042-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 121363
+2025-10-07T08:34:57.176674-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 550528
+2025-10-07T08:34:57.177355-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 296177
+2025-10-07T08:34:57.177837-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 630734
+2025-10-07T08:34:57.178218-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 458741
+2025-10-07T08:34:57.208362-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G20239015429: HTTP Error 400: 
+2025-10-07T08:34:57.594037-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 606363
+2025-10-07T08:34:57.595122-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G20238015421: HTTP Error 400: 
+2025-10-07T08:34:57.596110-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G21196017434: HTTP Error 400: 
+2025-10-07T08:34:57.596882-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 972755
+2025-10-07T08:34:59.567637-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 116704
+2025-10-07T08:34:59.568517-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 165024
+2025-10-07T08:34:59.569031-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1102920
+2025-10-07T08:34:59.569530-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 118269
+2025-10-07T08:34:59.570057-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 104459
+2025-10-07T08:35:00.042578-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1102940
+2025-10-07T08:35:00.043243-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G21196017440: HTTP Error 400: 
+2025-10-07T08:35:00.043845-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 142879
+2025-10-07T08:35:00.045012-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G21196017438: HTTP Error 400: 
+2025-10-07T08:35:00.045537-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 1102937
+2025-10-07T08:35:00.387281-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 146704
+2025-10-07T08:35:00.968744-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 199619
+2025-10-07T08:35:00.969628-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G21239017778: HTTP Error 400: 
+2025-10-07T08:35:00.970135-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 121374
+2025-10-07T08:35:00.970720-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 121364
+2025-10-07T08:35:03.874404-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 243180
+2025-10-07T08:35:03.875501-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G14364001029: HTTP Error 400: 
+2025-10-07T08:35:03.876219-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 111266
+2025-10-07T08:35:04.236574-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 155205
+2025-10-07T08:35:04.238474-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 621340
+2025-10-07T08:35:05.069335-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 602228
+2025-10-07T08:35:05.071244-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 645619
+2025-10-07T08:35:05.072447-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G14364001031: HTTP Error 400: 
+2025-10-07T08:35:05.073614-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 107111
+2025-10-07T08:35:05.074590-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 619716
+2025-10-07T08:35:05.384731-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 603846
+2025-10-07T08:35:05.392028-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 600276
+2025-10-07T08:35:05.406802-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 200863
+2025-10-07T08:35:05.420511-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 582190
+2025-10-07T08:35:05.422600-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 600844
+2025-10-07T08:35:05.730513-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 236436
+2025-10-07T08:35:05.770962-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 600853
+2025-10-07T08:35:05.787764-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 218749
+2025-10-07T08:35:05.790993-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 236393
+2025-10-07T08:35:05.822767-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 126988
+2025-10-07T08:35:06.057442-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 576775
+2025-10-07T08:35:06.094976-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 262296
+2025-10-07T08:35:06.135694-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 262276
+2025-10-07T08:35:06.160937-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 111224
+2025-10-07T08:35:06.246206-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 156975
+2025-10-07T08:35:06.380312-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 121375
+2025-10-07T08:35:06.434671-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 111225
+2025-10-07T08:35:06.481673-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 629930
+2025-10-07T08:35:06.528026-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 104502
+2025-10-07T08:35:06.601621-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 623144
+2025-10-07T08:35:06.767387-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 623436
+2025-10-07T08:35:06.814031-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 625436
+2025-10-07T08:35:06.815635-0400 ERROR apple_store.py:fetch_with_merge:154 - Failed to fetch metadata for G14364001036: HTTP Error 400: 
+2025-10-07T08:35:06.953277-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 101042
+2025-10-07T08:35:06.976036-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 101036
+2025-10-07T08:35:07.091580-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 154807
+2025-10-07T08:35:07.157783-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 621441
+2025-10-07T08:35:07.274899-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 646797
+2025-10-07T08:35:07.309694-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 649726
+2025-10-07T08:35:07.310514-0400 WARNING apple_store.py:fetch_with_merge:139 - No JSON metadata for 641445
+2025-10-07T08:35:16.174082-0400 SUCCESS apple_store.py:process:183 - Apple Store data written to output\apple.parquet with 29 records
+2025-10-07T08:35:16.180881-0400 INFO main.py:main:171 - Processing android with 508 IDs

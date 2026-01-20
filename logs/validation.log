@@ -1,0 +1,900 @@
+2026-01-20 02:38:25.380 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 02:38:25.429 | INFO     | validation:validate_and_route_ids:82 - Found 43 unique bundle IDs
+2026-01-20 02:38:26.375 | INFO     | validation:validate_and_route_ids:86 - Cache contains 282 previously routed IDs
+2026-01-20 02:38:26.375 | INFO     | validation:validate_and_route_ids:94 - Starting bundle ID analysis
+2026-01-20 02:38:26.413 | INFO     | validation:validate_and_route_ids:136 - Routing summary:
+2026-01-20 02:38:26.413 | INFO     | validation:validate_and_route_ids:139 -   apple: 16 IDs
+2026-01-20 02:38:26.413 | INFO     | validation:validate_and_route_ids:139 -   android: 27 IDs
+2026-01-20 02:38:26.416 | INFO     | validation:validate_and_route_ids:150 - No new bundle IDs found to add to cache
+2026-01-20 02:38:26.416 | INFO     | validation:validate_and_route_ids:155 - Saving routed IDs to store files
+2026-01-20 02:38:26.424 | INFO     | validation:validate_and_route_ids:164 - Saved 2 IDs to microsoft store file
+2026-01-20 02:38:26.439 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to apple store file
+2026-01-20 02:38:26.446 | INFO     | validation:validate_and_route_ids:164 - Saved 77 IDs to android store file
+2026-01-20 02:38:26.448 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to roku store file
+2026-01-20 02:38:26.468 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to lg store file
+2026-01-20 02:38:26.478 | INFO     | validation:validate_and_route_ids:164 - Saved 77 IDs to gallaxy store file
+2026-01-20 02:38:26.481 | SUCCESS  | validation:validate_and_route_ids:172 - All routing completed successfully
+2026-01-20 02:38:26.487 | INFO     | __main__:main:179 - Routing completed. Files saved to: routed_ids
+2026-01-20 02:38:26.505 | INFO     | __main__:main:201 - Processing apple with 42 IDs
+2026-01-20 02:38:26.505 | INFO     | store_validator.apple_store:process:184 - Processing 42 Apple bundle IDs
+2026-01-20 02:38:27.986 | WARNING  | store_validator.apple_store:fetch_with_merge:140 - No JSON metadata for 448347503
+2026-01-20 02:38:29.710 | WARNING  | store_validator.apple_store:fetch_with_merge:140 - No JSON metadata for 310213971
+2026-01-20 02:38:43.083 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 40 records
+2026-01-20 02:38:43.124 | INFO     | __main__:main:201 - Processing android with 77 IDs
+2026-01-20 02:38:43.132 | INFO     | store_validator.android_store:process:138 - Processing 77 Android bundle IDs
+2026-01-20 02:38:43.677 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.iphonedroid.marca
+2026-01-20 02:38:43.726 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=fr.canalplus.itele
+2026-01-20 02:38:43.774 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=es.mmip.prisacom.as
+2026-01-20 02:38:43.814 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=lequipe.fr
+2026-01-20 02:38:43.972 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=fr.playsoft.teleloisirs
+2026-01-20 02:38:46.123 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.webaslan
+2026-01-20 02:38:46.196 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.calciomercato.sosfanta
+2026-01-20 02:38:46.229 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=kanald.view
+2026-01-20 02:38:46.280 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.c4mprod.purepeople
+2026-01-20 02:38:46.379 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.allocine.androidapp
+2026-01-20 02:38:48.528 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.kreactive.leparisienrssplayer
+2026-01-20 02:38:48.556 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.acotel.astri
+2026-01-20 02:38:48.630 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.sporx
+2026-01-20 02:38:48.681 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.jeanmarcmorandini
+2026-01-20 02:38:48.702 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.justwatch.justwatch
+2026-01-20 02:38:50.819 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.dev.voici
+2026-01-20 02:38:50.995 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gmanmi.entertainment.mobile
+2026-01-20 02:38:51.042 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=org.studionord.sozcu.gazete
+2026-01-20 02:38:51.074 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.nzn.tdg
+2026-01-20 02:38:51.123 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=hurriyet.mobil.android
+2026-01-20 02:38:53.240 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:38:53.245 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 1 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:38:53.251 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.superfb
+2026-01-20 02:38:53.320 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.karakartal
+2026-01-20 02:38:53.403 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=aplicacion.tiempo
+2026-01-20 02:38:53.501 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.jeuxvideo
+2026-01-20 02:38:55.613 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bnes
+2026-01-20 02:38:55.696 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gi.elmundo.main
+2026-01-20 02:38:55.771 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.webedia.puremedia
+2026-01-20 02:38:55.866 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.imobilecode.fanatik
+2026-01-20 02:38:55.907 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=it.rcs.fcinter1908
+2026-01-20 02:38:58.082 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bn
+2026-01-20 02:38:58.163 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bnfr
+2026-01-20 02:38:58.260 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.amvg.milliyet.main
+2026-01-20 02:38:58.335 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.aufeminin.marmiton.activities
+2026-01-20 02:38:58.412 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.ldf.tele7.view
+2026-01-20 02:39:00.462 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.enki.Enki750g
+2026-01-20 02:39:00.580 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=tr.com.vbt.cumhuriyetmobileapp
+2026-01-20 02:39:00.645 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=de.filmstarts.android
+2026-01-20 02:39:00.743 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=it.rcs.corriere
+2026-01-20 02:39:00.812 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.adorocinema.android
+2026-01-20 02:39:02.861 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.opera.app.news
+2026-01-20 02:39:02.981 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.noticiasaominuto.pt
+2026-01-20 02:39:03.032 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.elpais.elpais
+2026-01-20 02:39:03.135 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.world.news.alap
+2026-01-20 02:39:03.209 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.iphonedroid.expansion
+2026-01-20 02:39:05.112 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:39:05.112 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 1 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:39:05.302 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.opera.t24
+2026-01-20 02:39:05.416 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.milibris.standalone.app.geo
+2026-01-20 02:39:05.534 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.prismamedia.cuisineactuelle
+2026-01-20 02:39:05.602 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.funradio.android.activity
+2026-01-20 02:39:07.423 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 02:39:07.699 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=magic.friends.rainbow
+2026-01-20 02:39:07.783 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.village.quest
+2026-01-20 02:39:07.951 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.PlayHallaGames.BallsNRopes
+2026-01-20 02:39:08.030 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gosub60.sol5spdr2
+2026-01-20 02:39:09.918 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.solitaire.play.klondike
+2026-01-20 02:39:10.078 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=io.voodoo.crowdcity
+2026-01-20 02:39:10.266 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.CreaTeamMobile.NextbotsinBackrooms
+2026-01-20 02:39:10.352 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.mind.quiz.brain.out
+2026-01-20 02:39:10.450 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xgame.craft.runner3d
+2026-01-20 02:39:12.301 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.incolor
+2026-01-20 02:39:12.480 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.find.out.hidden.objects
+2026-01-20 02:39:12.707 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.cross.stitch
+2026-01-20 02:39:12.778 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.braindoku.sudoku.block.puzzle
+2026-01-20 02:39:12.930 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.diamond.painting.by.number
+2026-01-20 02:39:14.628 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.vincentb.RollyLegs
+2026-01-20 02:39:14.893 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.doodle.master.draw.glow.art
+2026-01-20 02:39:15.110 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.blackjack.cards21
+2026-01-20 02:39:15.192 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.creative.cross.stitch.relaxing.game
+2026-01-20 02:39:15.348 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.cross.stitch.color.by.number
+2026-01-20 02:39:17.014 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.food.travel
+2026-01-20 02:39:17.363 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.crossword
+2026-01-20 02:39:17.606 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=water.sort.soda.color.puzzle.games
+2026-01-20 02:39:17.671 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xiuyou.CannonAttack
+2026-01-20 02:39:17.984 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=dats.games.airdefence3d
+2026-01-20 02:39:19.437 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inspiredsquare.numbers123
+2026-01-20 02:39:19.767 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=net.ibexsolutions.venus
+2026-01-20 02:39:19.840 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:39:19.848 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 2 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:39:19.929 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:39:19.937 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 2 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:39:22.020 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:39:22.020 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 3 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:39:22.150 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:39:22.150 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 3 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:39:24.200 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 75 records
+2026-01-20 02:39:24.225 | INFO     | store_validator.android_store:process:152 - Saved 1 failed results
+2026-01-20 02:39:24.256 | INFO     | __main__:main:207 - No bundle IDs for amazon
+2026-01-20 02:39:24.275 | INFO     | __main__:main:201 - Processing microsoft with 2 IDs
+2026-01-20 02:39:24.280 | INFO     | store_validator.microsft_store:process:171 - Processing 2 Microsoft bundle IDs
+2026-01-20 02:39:25.245 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:39:25.257 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:39:25.661 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:39:25.661 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:39:27.557 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:39:27.557 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:39:28.289 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:39:28.289 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:39:30.246 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:39:30.246 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:39:30.623 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:39:30.623 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:39:32.639 | ERROR    | __main__:main:205 - Error processing microsoft: If using all scalar values, you must pass an index
+2026-01-20 02:39:32.650 | INFO     | __main__:main:201 - Processing gallaxy with 77 IDs
+2026-01-20 02:39:32.653 | INFO     | store_validator.gallaxy:process:108 - Processing 77 Gallaxy bundle IDs
+2026-01-20 02:39:40.823 | INFO     | store_validator.gallaxy:process:116 - Saved 77 Gallaxy results
+2026-01-20 02:39:40.824 | INFO     | __main__:main:207 - No bundle IDs for samsung
+2026-01-20 02:39:40.833 | INFO     | __main__:main:207 - No bundle IDs for zeasn
+2026-01-20 02:39:40.842 | INFO     | __main__:main:207 - No bundle IDs for vizio
+2026-01-20 02:39:40.842 | INFO     | __main__:main:201 - Processing roku with 42 IDs
+2026-01-20 02:39:40.842 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 02:39:40.858 | INFO     | store_validator.roku:process:90 - Found 42 bundle IDs to process
+2026-01-20 02:39:43.809 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 42
+2026-01-20 02:39:43.842 | INFO     | __main__:main:201 - Processing lg with 42 IDs
+2026-01-20 02:39:43.850 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 02:39:43.850 | INFO     | store_validator.lgstore:process:55 - Found 42 bundle IDs to process
+2026-01-20 02:39:43.914 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 02:39:43.971 | INFO     | __main__:main:212 - Merging all outputs
+2026-01-20 02:39:43.979 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'gallaxy.parquet']
+2026-01-20 02:39:44.145 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 02:39:44.149 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 02:39:44.222 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 02:39:44.222 | SUCCESS  | __main__:main:217 - All processing completed successfully
+2026-01-20 02:47:50.622 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 02:47:50.663 | INFO     | validation:validate_and_route_ids:82 - Found 32 unique bundle IDs
+2026-01-20 02:47:51.756 | INFO     | validation:validate_and_route_ids:86 - Cache contains 282 previously routed IDs
+2026-01-20 02:47:51.756 | INFO     | validation:validate_and_route_ids:94 - Starting bundle ID analysis
+2026-01-20 02:47:51.788 | INFO     | validation:validate_and_route_ids:136 - Routing summary:
+2026-01-20 02:47:51.788 | INFO     | validation:validate_and_route_ids:139 -   apple: 13 IDs
+2026-01-20 02:47:51.788 | INFO     | validation:validate_and_route_ids:139 -   android: 19 IDs
+2026-01-20 02:47:51.788 | INFO     | validation:validate_and_route_ids:150 - No new bundle IDs found to add to cache
+2026-01-20 02:47:51.788 | INFO     | validation:validate_and_route_ids:155 - Saving routed IDs to store files
+2026-01-20 02:47:51.796 | INFO     | validation:validate_and_route_ids:164 - Saved 2 IDs to microsoft store file
+2026-01-20 02:47:51.804 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to apple store file
+2026-01-20 02:47:51.816 | INFO     | validation:validate_and_route_ids:164 - Saved 77 IDs to android store file
+2026-01-20 02:47:51.824 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to roku store file
+2026-01-20 02:47:51.840 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to lg store file
+2026-01-20 02:47:51.848 | INFO     | validation:validate_and_route_ids:164 - Saved 77 IDs to gallaxy store file
+2026-01-20 02:47:51.856 | SUCCESS  | validation:validate_and_route_ids:172 - All routing completed successfully
+2026-01-20 02:47:51.857 | INFO     | __main__:main:179 - Routing completed. Files saved to: routed_ids
+2026-01-20 02:47:51.873 | INFO     | __main__:main:201 - Processing apple with 42 IDs
+2026-01-20 02:47:51.882 | INFO     | store_validator.apple_store:process:184 - Processing 42 Apple bundle IDs
+2026-01-20 02:47:52.350 | WARNING  | store_validator.apple_store:fetch_with_merge:140 - No JSON metadata for 448347503
+2026-01-20 02:47:52.460 | WARNING  | store_validator.apple_store:fetch_with_merge:140 - No JSON metadata for 310213971
+2026-01-20 02:48:00.268 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 40 records
+2026-01-20 02:48:00.303 | INFO     | __main__:main:201 - Processing android with 77 IDs
+2026-01-20 02:48:00.309 | INFO     | store_validator.android_store:process:138 - Processing 77 Android bundle IDs
+2026-01-20 02:48:00.777 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=fr.canalplus.itele
+2026-01-20 02:48:00.908 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=fr.playsoft.teleloisirs
+2026-01-20 02:48:01.049 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.iphonedroid.marca
+2026-01-20 02:48:01.161 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=lequipe.fr
+2026-01-20 02:48:01.263 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=es.mmip.prisacom.as
+2026-01-20 02:48:03.166 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=kanald.view
+2026-01-20 02:48:03.249 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.webaslan
+2026-01-20 02:48:03.471 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.allocine.androidapp
+2026-01-20 02:48:03.603 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.calciomercato.sosfanta
+2026-01-20 02:48:03.722 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.c4mprod.purepeople
+2026-01-20 02:48:05.578 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.kreactive.leparisienrssplayer
+2026-01-20 02:48:05.642 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.sporx
+2026-01-20 02:48:05.870 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.acotel.astri
+2026-01-20 02:48:06.001 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.justwatch.justwatch
+2026-01-20 02:48:06.098 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.jeanmarcmorandini
+2026-01-20 02:48:07.864 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.dev.voici
+2026-01-20 02:48:08.221 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=org.studionord.sozcu.gazete
+2026-01-20 02:48:08.400 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=hurriyet.mobil.android
+2026-01-20 02:48:08.472 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gmanmi.entertainment.mobile
+2026-01-20 02:48:08.594 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.nzn.tdg
+2026-01-20 02:48:10.170 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.superfb
+2026-01-20 02:48:10.516 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.karakartal
+2026-01-20 02:48:10.571 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:48:10.571 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 1 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:48:11.031 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=aplicacion.tiempo
+2026-01-20 02:48:11.101 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.jeuxvideo
+2026-01-20 02:48:12.531 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bnes
+2026-01-20 02:48:12.869 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gi.elmundo.main
+2026-01-20 02:48:12.948 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.webedia.puremedia
+2026-01-20 02:48:13.364 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.imobilecode.fanatik
+2026-01-20 02:48:13.477 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=it.rcs.fcinter1908
+2026-01-20 02:48:14.855 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bn
+2026-01-20 02:48:15.255 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bnfr
+2026-01-20 02:48:15.495 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.aufeminin.marmiton.activities
+2026-01-20 02:48:15.780 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.amvg.milliyet.main
+2026-01-20 02:48:15.832 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.ldf.tele7.view
+2026-01-20 02:48:17.197 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.enki.Enki750g
+2026-01-20 02:48:17.581 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=de.filmstarts.android
+2026-01-20 02:48:17.776 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=tr.com.vbt.cumhuriyetmobileapp
+2026-01-20 02:48:18.203 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=it.rcs.corriere
+2026-01-20 02:48:18.261 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.adorocinema.android
+2026-01-20 02:48:19.506 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.opera.app.news
+2026-01-20 02:48:19.906 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.noticiasaominuto.pt
+2026-01-20 02:48:20.150 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.elpais.elpais
+2026-01-20 02:48:20.506 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.world.news.alap
+2026-01-20 02:48:20.609 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.iphonedroid.expansion
+2026-01-20 02:48:21.710 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:48:21.710 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 1 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:48:22.227 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.opera.t24
+2026-01-20 02:48:22.541 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.milibris.standalone.app.geo
+2026-01-20 02:48:22.941 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.prismamedia.cuisineactuelle
+2026-01-20 02:48:23.006 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.funradio.android.activity
+2026-01-20 02:48:24.066 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 02:48:24.514 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=magic.friends.rainbow
+2026-01-20 02:48:24.869 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.village.quest
+2026-01-20 02:48:25.269 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gosub60.sol5spdr2
+2026-01-20 02:48:25.430 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.PlayHallaGames.BallsNRopes
+2026-01-20 02:48:26.384 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.solitaire.play.klondike
+2026-01-20 02:48:26.869 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=io.voodoo.crowdcity
+2026-01-20 02:48:27.229 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.CreaTeamMobile.NextbotsinBackrooms
+2026-01-20 02:48:27.587 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.mind.quiz.brain.out
+2026-01-20 02:48:27.732 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xgame.craft.runner3d
+2026-01-20 02:48:28.778 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.incolor
+2026-01-20 02:48:29.192 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.find.out.hidden.objects
+2026-01-20 02:48:29.624 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.braindoku.sudoku.block.puzzle
+2026-01-20 02:48:30.008 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.cross.stitch
+2026-01-20 02:48:30.175 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.diamond.painting.by.number
+2026-01-20 02:48:31.111 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.vincentb.RollyLegs
+2026-01-20 02:48:31.444 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.doodle.master.draw.glow.art
+2026-01-20 02:48:31.930 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.blackjack.cards21
+2026-01-20 02:48:32.282 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.creative.cross.stitch.relaxing.game
+2026-01-20 02:48:32.429 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.cross.stitch.color.by.number
+2026-01-20 02:48:33.400 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.food.travel
+2026-01-20 02:48:33.765 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.crossword
+2026-01-20 02:48:34.193 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=water.sort.soda.color.puzzle.games
+2026-01-20 02:48:34.551 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xiuyou.CannonAttack
+2026-01-20 02:48:34.838 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=dats.games.airdefence3d
+2026-01-20 02:48:35.728 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inspiredsquare.numbers123
+2026-01-20 02:48:36.043 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=net.ibexsolutions.venus
+2026-01-20 02:48:36.361 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:48:36.361 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 2 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:48:36.710 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:48:36.710 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 2 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:48:38.491 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:48:38.497 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 3 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:48:38.847 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:48:38.848 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 3 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:48:40.869 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 75 records
+2026-01-20 02:48:40.881 | INFO     | store_validator.android_store:process:152 - Saved 1 failed results
+2026-01-20 02:48:40.945 | INFO     | __main__:main:207 - No bundle IDs for amazon
+2026-01-20 02:48:41.021 | INFO     | __main__:main:201 - Processing microsoft with 2 IDs
+2026-01-20 02:48:41.033 | INFO     | store_validator.microsft_store:process:171 - Processing 2 Microsoft bundle IDs
+2026-01-20 02:48:41.496 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:48:41.496 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:48:41.528 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:48:41.528 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:48:44.043 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:48:44.043 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:48:44.096 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:48:44.096 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:48:46.331 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:48:46.337 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:48:46.420 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:48:46.420 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:48:48.421 | ERROR    | __main__:main:205 - Error processing microsoft: If using all scalar values, you must pass an index
+2026-01-20 02:48:48.426 | INFO     | __main__:main:201 - Processing gallaxy with 77 IDs
+2026-01-20 02:48:48.434 | INFO     | store_validator.gallaxy:process:108 - Processing 77 Gallaxy bundle IDs
+2026-01-20 02:48:54.746 | INFO     | store_validator.gallaxy:process:116 - Saved 77 Gallaxy results
+2026-01-20 02:48:54.754 | INFO     | __main__:main:207 - No bundle IDs for samsung
+2026-01-20 02:48:54.765 | INFO     | __main__:main:207 - No bundle IDs for zeasn
+2026-01-20 02:48:54.771 | INFO     | __main__:main:207 - No bundle IDs for vizio
+2026-01-20 02:48:54.780 | INFO     | __main__:main:201 - Processing roku with 42 IDs
+2026-01-20 02:48:54.780 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 02:48:54.795 | INFO     | store_validator.roku:process:90 - Found 42 bundle IDs to process
+2026-01-20 02:48:57.686 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 42
+2026-01-20 02:48:57.727 | INFO     | __main__:main:201 - Processing lg with 42 IDs
+2026-01-20 02:48:57.727 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 02:48:57.736 | INFO     | store_validator.lgstore:process:55 - Found 42 bundle IDs to process
+2026-01-20 02:48:57.839 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 02:48:57.888 | INFO     | __main__:main:212 - Merging all outputs
+2026-01-20 02:48:57.933 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 02:48:57.933 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 02:48:58.128 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 02:48:58.136 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 02:48:58.144 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 02:48:58.232 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 02:48:58.232 | SUCCESS  | __main__:main:217 - All processing completed successfully
+2026-01-20 02:51:16.047 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 02:51:16.072 | INFO     | validation:validate_and_route_ids:82 - Found 32 unique bundle IDs
+2026-01-20 02:51:16.118 | INFO     | validation:validate_and_route_ids:86 - Cache contains 282 previously routed IDs
+2026-01-20 02:51:16.118 | INFO     | validation:validate_and_route_ids:94 - Starting bundle ID analysis
+2026-01-20 02:51:16.146 | INFO     | validation:validate_and_route_ids:136 - Routing summary:
+2026-01-20 02:51:16.146 | INFO     | validation:validate_and_route_ids:139 -   apple: 13 IDs
+2026-01-20 02:51:16.146 | INFO     | validation:validate_and_route_ids:139 -   android: 19 IDs
+2026-01-20 02:51:16.146 | INFO     | validation:validate_and_route_ids:150 - No new bundle IDs found to add to cache
+2026-01-20 02:51:16.146 | INFO     | validation:validate_and_route_ids:155 - Saving routed IDs to store files
+2026-01-20 02:51:16.155 | INFO     | validation:validate_and_route_ids:164 - Saved 2 IDs to microsoft store file
+2026-01-20 02:51:16.164 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to apple store file
+2026-01-20 02:51:16.171 | INFO     | validation:validate_and_route_ids:164 - Saved 77 IDs to android store file
+2026-01-20 02:51:16.180 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to roku store file
+2026-01-20 02:51:16.237 | INFO     | validation:validate_and_route_ids:164 - Saved 42 IDs to lg store file
+2026-01-20 02:51:16.244 | INFO     | validation:validate_and_route_ids:164 - Saved 77 IDs to gallaxy store file
+2026-01-20 02:51:16.252 | SUCCESS  | validation:validate_and_route_ids:172 - All routing completed successfully
+2026-01-20 02:51:16.252 | INFO     | __main__:main:179 - Routing completed. Files saved to: routed_ids
+2026-01-20 02:51:16.260 | INFO     | __main__:main:201 - Processing apple with 42 IDs
+2026-01-20 02:51:16.260 | INFO     | store_validator.apple_store:process:184 - Processing 42 Apple bundle IDs
+2026-01-20 02:51:17.316 | WARNING  | store_validator.apple_store:fetch_with_merge:140 - No JSON metadata for 448347503
+2026-01-20 02:51:18.394 | WARNING  | store_validator.apple_store:fetch_with_merge:140 - No JSON metadata for 310213971
+2026-01-20 02:51:27.810 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 40 records
+2026-01-20 02:51:27.826 | INFO     | __main__:main:201 - Processing android with 77 IDs
+2026-01-20 02:51:27.841 | INFO     | store_validator.android_store:process:138 - Processing 77 Android bundle IDs
+2026-01-20 02:51:28.667 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=fr.canalplus.itele
+2026-01-20 02:51:28.702 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=es.mmip.prisacom.as
+2026-01-20 02:51:28.742 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.iphonedroid.marca
+2026-01-20 02:51:28.808 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=fr.playsoft.teleloisirs
+2026-01-20 02:51:28.897 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=lequipe.fr
+2026-01-20 02:51:31.146 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.webaslan
+2026-01-20 02:51:31.217 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=kanald.view
+2026-01-20 02:51:31.266 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.allocine.androidapp
+2026-01-20 02:51:31.290 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.calciomercato.sosfanta
+2026-01-20 02:51:31.317 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.c4mprod.purepeople
+2026-01-20 02:51:33.546 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.kreactive.leparisienrssplayer
+2026-01-20 02:51:33.682 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.jeanmarcmorandini
+2026-01-20 02:51:33.698 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.sporx
+2026-01-20 02:51:33.729 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.acotel.astri
+2026-01-20 02:51:33.760 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.justwatch.justwatch
+2026-01-20 02:51:35.817 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.dev.voici
+2026-01-20 02:51:35.993 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.nzn.tdg
+2026-01-20 02:51:36.175 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gmanmi.entertainment.mobile
+2026-01-20 02:51:36.206 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=hurriyet.mobil.android
+2026-01-20 02:51:36.243 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=org.studionord.sozcu.gazete
+2026-01-20 02:51:38.149 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.superfb
+2026-01-20 02:51:38.319 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.karakartal
+2026-01-20 02:51:38.522 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:51:38.522 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 1 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:51:38.706 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=aplicacion.tiempo
+2026-01-20 02:51:39.010 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.jeuxvideo
+2026-01-20 02:51:40.894 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bnes
+2026-01-20 02:51:41.119 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.webedia.puremedia
+2026-01-20 02:51:41.139 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gi.elmundo.main
+2026-01-20 02:51:41.806 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=it.rcs.fcinter1908
+2026-01-20 02:51:41.832 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.imobilecode.fanatik
+2026-01-20 02:51:43.187 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bn
+2026-01-20 02:51:43.569 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=ma.safe.bnfr
+2026-01-20 02:51:43.609 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.aufeminin.marmiton.activities
+2026-01-20 02:51:45.095 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.ldf.tele7.view
+2026-01-20 02:51:45.119 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.amvg.milliyet.main
+2026-01-20 02:51:45.540 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.enki.Enki750g
+2026-01-20 02:51:46.126 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=de.filmstarts.android
+2026-01-20 02:51:46.199 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=tr.com.vbt.cumhuriyetmobileapp
+2026-01-20 02:51:47.414 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=it.rcs.corriere
+2026-01-20 02:51:47.463 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.adorocinema.android
+2026-01-20 02:51:47.900 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.opera.app.news
+2026-01-20 02:51:49.552 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.noticiasaominuto.pt
+2026-01-20 02:51:49.583 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.elpais.elpais
+2026-01-20 02:51:49.764 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.world.news.alap
+2026-01-20 02:51:49.797 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.iphonedroid.expansion
+2026-01-20 02:51:50.109 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:51:50.109 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 1 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:51:51.914 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.opera.t24
+2026-01-20 02:51:52.033 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.milibris.standalone.app.geo
+2026-01-20 02:51:52.117 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.prismamedia.cuisineactuelle
+2026-01-20 02:51:52.166 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.funradio.android.activity
+2026-01-20 02:51:52.516 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 02:51:54.289 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=magic.friends.rainbow
+2026-01-20 02:51:54.904 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gosub60.sol5spdr2
+2026-01-20 02:51:54.947 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.PlayHallaGames.BallsNRopes
+2026-01-20 02:51:54.984 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.solitaire.play.klondike
+2026-01-20 02:51:55.017 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.village.quest
+2026-01-20 02:51:56.704 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=io.voodoo.crowdcity
+2026-01-20 02:51:57.377 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.mind.quiz.brain.out
+2026-01-20 02:51:57.413 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.CreaTeamMobile.NextbotsinBackrooms
+2026-01-20 02:51:57.449 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.incolor
+2026-01-20 02:51:57.480 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xgame.craft.runner3d
+2026-01-20 02:51:59.497 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.find.out.hidden.objects
+2026-01-20 02:51:59.707 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.cross.stitch
+2026-01-20 02:51:59.739 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.braindoku.sudoku.block.puzzle
+2026-01-20 02:51:59.792 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.diamond.painting.by.number
+2026-01-20 02:51:59.900 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.vincentb.RollyLegs
+2026-01-20 02:52:01.893 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.doodle.master.draw.glow.art
+2026-01-20 02:52:02.042 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.blackjack.cards21
+2026-01-20 02:52:02.144 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.creative.cross.stitch.relaxing.game
+2026-01-20 02:52:02.178 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.cross.stitch.color.by.number
+2026-01-20 02:52:02.217 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.food.travel
+2026-01-20 02:52:04.300 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.crossword
+2026-01-20 02:52:04.360 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=water.sort.soda.color.puzzle.games
+2026-01-20 02:52:04.433 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xiuyou.CannonAttack
+2026-01-20 02:52:04.479 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=dats.games.airdefence3d
+2026-01-20 02:52:04.635 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inspiredsquare.numbers123
+2026-01-20 02:52:06.567 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:52:06.567 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 2 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:52:06.640 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:52:06.642 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 2 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:52:06.725 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=net.ibexsolutions.venus
+2026-01-20 02:52:08.939 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.Acotel.Horoscope
+2026-01-20 02:52:08.939 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 3 failed for https://play.google.com/store/apps/details?id=com.Acotel.Horoscope: HTTP Error 404: 
+2026-01-20 02:52:09.015 | INFO     | store_validator.android_store:fetch_with_retry:88 - [404] https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android
+2026-01-20 02:52:09.015 | ERROR    | store_validator.android_store:fetch_with_retry:109 - Retry 3 failed for https://play.google.com/store/apps/details?id=com.radiofrance.radio.franceinter.android: HTTP Error 404: 
+2026-01-20 02:52:11.040 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 75 records
+2026-01-20 02:52:11.053 | INFO     | store_validator.android_store:process:152 - Saved 1 failed results
+2026-01-20 02:52:11.055 | INFO     | __main__:main:207 - No bundle IDs for amazon
+2026-01-20 02:52:11.062 | INFO     | __main__:main:201 - Processing microsoft with 2 IDs
+2026-01-20 02:52:11.069 | INFO     | store_validator.microsft_store:process:171 - Processing 2 Microsoft bundle IDs
+2026-01-20 02:52:11.978 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:52:11.978 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:52:12.235 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:52:12.235 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:52:14.550 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:52:14.550 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:52:15.970 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:52:15.970 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:52:17.154 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US
+2026-01-20 02:52:17.156 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/979827127?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:52:18.311 | INFO     | store_validator.microsft_store:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US
+2026-01-20 02:52:18.311 | ERROR    | store_validator.microsft_store:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/926254990?hl=en-US&gl=US: HTTP Error 404: 
+2026-01-20 02:52:20.312 | ERROR    | __main__:main:205 - Error processing microsoft: If using all scalar values, you must pass an index
+2026-01-20 02:52:20.318 | INFO     | __main__:main:201 - Processing gallaxy with 77 IDs
+2026-01-20 02:52:20.326 | INFO     | store_validator.gallaxy:process:108 - Processing 77 Gallaxy bundle IDs
+2026-01-20 02:52:26.935 | INFO     | store_validator.gallaxy:process:116 - Saved 77 Gallaxy results
+2026-01-20 02:52:26.941 | INFO     | __main__:main:207 - No bundle IDs for samsung
+2026-01-20 02:52:26.948 | INFO     | __main__:main:207 - No bundle IDs for zeasn
+2026-01-20 02:52:26.948 | INFO     | __main__:main:207 - No bundle IDs for vizio
+2026-01-20 02:52:26.954 | INFO     | __main__:main:201 - Processing roku with 42 IDs
+2026-01-20 02:52:26.954 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 02:52:26.962 | INFO     | store_validator.roku:process:90 - Found 42 bundle IDs to process
+2026-01-20 02:52:27.878 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 42
+2026-01-20 02:52:27.896 | INFO     | __main__:main:201 - Processing lg with 42 IDs
+2026-01-20 02:52:27.896 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 02:52:27.904 | INFO     | store_validator.lgstore:process:55 - Found 42 bundle IDs to process
+2026-01-20 02:52:27.920 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 02:52:27.936 | INFO     | __main__:main:212 - Merging all outputs
+2026-01-20 02:52:28.029 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 02:52:28.030 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 02:52:28.112 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 02:52:28.120 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 02:52:28.120 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 02:52:28.162 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 02:52:28.164 | SUCCESS  | __main__:main:217 - All processing completed successfully
+2026-01-20 03:03:30.508 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: test.xlsx
+2026-01-20 03:03:31.053 | INFO     | validation:validate_and_route_ids:83 - Found 43 unique bundle IDs
+2026-01-20 03:03:31.105 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:03:31.105 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:03:31.145 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:03:31.145 | INFO     | validation:validate_and_route_ids:140 -   apple: 16 IDs
+2026-01-20 03:03:31.146 | INFO     | validation:validate_and_route_ids:140 -   android: 27 IDs
+2026-01-20 03:03:31.146 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:03:31.146 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:03:31.171 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to apple store file
+2026-01-20 03:03:31.173 | INFO     | validation:validate_and_route_ids:169 - Saved 27 IDs to android store file
+2026-01-20 03:03:31.188 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to roku store file
+2026-01-20 03:03:31.196 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to lg store file
+2026-01-20 03:03:31.208 | INFO     | validation:validate_and_route_ids:169 - Saved 27 IDs to gallaxy store file
+2026-01-20 03:03:31.215 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:03:31.215 | INFO     | __main__:main:184 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:03:31.215 | INFO     | __main__:main:201 - Starting store processing
+2026-01-20 03:03:31.229 | INFO     | __main__:main:210 - Processing apple with 16 IDs
+2026-01-20 03:03:31.229 | INFO     | store_validator.apple_store:process:184 - Processing 16 Apple bundle IDs
+2026-01-20 03:03:37.644 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 16 records
+2026-01-20 03:03:37.666 | INFO     | __main__:main:210 - Processing android with 27 IDs
+2026-01-20 03:03:37.674 | INFO     | store_validator.android_store:process:138 - Processing 27 Android bundle IDs
+2026-01-20 03:03:38.083 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=magic.friends.rainbow
+2026-01-20 03:03:38.279 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.PlayHallaGames.BallsNRopes
+2026-01-20 03:03:38.329 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gosub60.sol5spdr2
+2026-01-20 03:03:38.368 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.village.quest
+2026-01-20 03:03:38.528 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 03:03:40.913 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.solitaire.play.klondike
+2026-01-20 03:03:41.080 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=io.voodoo.crowdcity
+2026-01-20 03:03:41.123 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.CreaTeamMobile.NextbotsinBackrooms
+2026-01-20 03:03:41.158 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.mind.quiz.brain.out
+2026-01-20 03:03:41.183 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xgame.craft.runner3d
+2026-01-20 03:03:43.126 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.incolor
+2026-01-20 03:03:43.367 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.find.out.hidden.objects
+2026-01-20 03:03:43.400 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.braindoku.sudoku.block.puzzle
+2026-01-20 03:03:43.434 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.cross.stitch
+2026-01-20 03:03:43.476 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.diamond.painting.by.number
+2026-01-20 03:03:45.370 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.vincentb.RollyLegs
+2026-01-20 03:03:45.571 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.doodle.master.draw.glow.art
+2026-01-20 03:03:45.666 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.creative.cross.stitch.relaxing.game
+2026-01-20 03:03:45.691 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.blackjack.cards21
+2026-01-20 03:03:45.829 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.cross.stitch.color.by.number
+2026-01-20 03:03:47.749 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.food.travel
+2026-01-20 03:03:47.811 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.crossword
+2026-01-20 03:03:47.880 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=water.sort.soda.color.puzzle.games
+2026-01-20 03:03:47.978 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xiuyou.CannonAttack
+2026-01-20 03:03:48.494 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=dats.games.airdefence3d
+2026-01-20 03:03:50.015 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inspiredsquare.numbers123
+2026-01-20 03:03:50.061 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=net.ibexsolutions.venus
+2026-01-20 03:03:52.120 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 27 records
+2026-01-20 03:03:52.120 | INFO     | __main__:main:222 - amazon has no bundle IDs to process
+2026-01-20 03:03:52.120 | INFO     | __main__:main:222 - microsoft has no bundle IDs to process
+2026-01-20 03:03:52.136 | INFO     | __main__:main:210 - Processing gallaxy with 27 IDs
+2026-01-20 03:03:52.142 | INFO     | store_validator.gallaxy:process:108 - Processing 27 Gallaxy bundle IDs
+2026-01-20 03:03:55.488 | INFO     | store_validator.gallaxy:process:116 - Saved 27 Gallaxy results
+2026-01-20 03:03:55.494 | INFO     | __main__:main:222 - samsung has no bundle IDs to process
+2026-01-20 03:03:55.502 | INFO     | __main__:main:222 - zeasn has no bundle IDs to process
+2026-01-20 03:03:55.502 | INFO     | __main__:main:222 - vizio has no bundle IDs to process
+2026-01-20 03:03:55.510 | INFO     | __main__:main:210 - Processing roku with 16 IDs
+2026-01-20 03:03:55.510 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 03:03:55.518 | INFO     | store_validator.roku:process:90 - Found 16 bundle IDs to process
+2026-01-20 03:03:56.259 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 16
+2026-01-20 03:03:56.273 | INFO     | __main__:main:210 - Processing lg with 16 IDs
+2026-01-20 03:03:56.273 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 03:03:56.281 | INFO     | store_validator.lgstore:process:55 - Found 16 bundle IDs to process
+2026-01-20 03:03:56.297 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 03:03:56.306 | INFO     | __main__:main:231 - Merging all outputs
+2026-01-20 03:03:56.306 | INFO     | __main__:load_existing_developer_urls:70 - Loaded 77 existing developer URLs from merge file
+2026-01-20 03:03:56.313 | INFO     | __main__:merge_outputs:86 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:03:56.407 | SUCCESS  | __main__:merge_outputs:125 - Merged output saved to: output\combined.parquet
+2026-01-20 03:03:56.407 | SUCCESS  | __main__:main:235 - All processing completed successfully
+2026-01-20 03:05:40.399 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: test.xlsx
+2026-01-20 03:05:40.962 | INFO     | validation:validate_and_route_ids:83 - Found 43 unique bundle IDs
+2026-01-20 03:05:41.023 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:05:41.023 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:05:41.050 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:05:41.050 | INFO     | validation:validate_and_route_ids:140 -   apple: 16 IDs
+2026-01-20 03:05:41.050 | INFO     | validation:validate_and_route_ids:140 -   android: 27 IDs
+2026-01-20 03:05:41.050 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:05:41.050 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:05:41.074 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to apple store file
+2026-01-20 03:05:41.082 | INFO     | validation:validate_and_route_ids:169 - Saved 27 IDs to android store file
+2026-01-20 03:05:41.090 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to roku store file
+2026-01-20 03:05:41.106 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to lg store file
+2026-01-20 03:05:41.115 | INFO     | validation:validate_and_route_ids:169 - Saved 27 IDs to gallaxy store file
+2026-01-20 03:05:41.115 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:05:41.123 | INFO     | __main__:main:182 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:05:41.125 | INFO     | __main__:main:199 - Starting store processing
+2026-01-20 03:05:41.125 | INFO     | __main__:main:208 - Processing apple with 16 IDs
+2026-01-20 03:05:41.134 | INFO     | store_validator.apple_store:process:184 - Processing 16 Apple bundle IDs
+2026-01-20 03:05:45.895 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 16 records
+2026-01-20 03:05:45.912 | INFO     | __main__:main:208 - Processing android with 27 IDs
+2026-01-20 03:05:45.912 | INFO     | store_validator.android_store:process:138 - Processing 27 Android bundle IDs
+2026-01-20 03:05:46.487 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 03:05:46.863 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=magic.friends.rainbow
+2026-01-20 03:05:47.074 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.PlayHallaGames.BallsNRopes
+2026-01-20 03:05:47.111 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.village.quest
+2026-01-20 03:05:47.255 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gosub60.sol5spdr2
+2026-01-20 03:05:49.096 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.solitaire.play.klondike
+2026-01-20 03:05:49.342 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=io.voodoo.crowdcity
+2026-01-20 03:05:49.602 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.CreaTeamMobile.NextbotsinBackrooms
+2026-01-20 03:05:49.740 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.mind.quiz.brain.out
+2026-01-20 03:05:49.848 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xgame.craft.runner3d
+2026-01-20 03:05:51.412 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.incolor
+2026-01-20 03:05:51.646 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.find.out.hidden.objects
+2026-01-20 03:05:51.927 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.braindoku.sudoku.block.puzzle
+2026-01-20 03:05:52.102 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inapp.cross.stitch
+2026-01-20 03:05:52.225 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.diamond.painting.by.number
+2026-01-20 03:05:53.907 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.vincentb.RollyLegs
+2026-01-20 03:05:54.119 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.doodle.master.draw.glow.art
+2026-01-20 03:05:54.264 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.blackjack.cards21
+2026-01-20 03:05:54.481 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.creative.cross.stitch.relaxing.game
+2026-01-20 03:05:54.611 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.cross.stitch.color.by.number
+2026-01-20 03:05:56.191 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.food.travel
+2026-01-20 03:05:56.378 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.word.wordelicious.crossword
+2026-01-20 03:05:56.573 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=water.sort.soda.color.puzzle.games
+2026-01-20 03:05:56.698 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.xiuyou.CannonAttack
+2026-01-20 03:05:56.849 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=dats.games.airdefence3d
+2026-01-20 03:05:58.492 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.inspiredsquare.numbers123
+2026-01-20 03:05:58.690 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=net.ibexsolutions.venus
+2026-01-20 03:06:00.748 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 27 records
+2026-01-20 03:06:00.750 | INFO     | __main__:main:220 - amazon has no bundle IDs to process
+2026-01-20 03:06:00.750 | INFO     | __main__:main:220 - microsoft has no bundle IDs to process
+2026-01-20 03:06:00.758 | INFO     | __main__:main:208 - Processing gallaxy with 27 IDs
+2026-01-20 03:06:00.764 | INFO     | store_validator.gallaxy:process:108 - Processing 27 Gallaxy bundle IDs
+2026-01-20 03:06:03.069 | INFO     | store_validator.gallaxy:process:116 - Saved 27 Gallaxy results
+2026-01-20 03:06:03.082 | INFO     | __main__:main:220 - samsung has no bundle IDs to process
+2026-01-20 03:06:03.091 | INFO     | __main__:main:220 - zeasn has no bundle IDs to process
+2026-01-20 03:06:03.092 | INFO     | __main__:main:220 - vizio has no bundle IDs to process
+2026-01-20 03:06:03.098 | INFO     | __main__:main:208 - Processing roku with 16 IDs
+2026-01-20 03:06:03.098 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 03:06:03.103 | INFO     | store_validator.roku:process:90 - Found 16 bundle IDs to process
+2026-01-20 03:06:03.801 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 16
+2026-01-20 03:06:03.823 | INFO     | __main__:main:208 - Processing lg with 16 IDs
+2026-01-20 03:06:03.823 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 03:06:03.827 | INFO     | store_validator.lgstore:process:55 - Found 16 bundle IDs to process
+2026-01-20 03:06:03.838 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 03:06:03.847 | INFO     | __main__:main:229 - Merging all outputs
+2026-01-20 03:06:03.889 | INFO     | __main__:load_existing_developer_urls:68 - Loaded 77 existing developer URLs from merge file
+2026-01-20 03:06:03.889 | INFO     | __main__:merge_outputs:84 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:06:03.972 | SUCCESS  | __main__:merge_outputs:123 - Merged output saved to: output\combined.parquet
+2026-01-20 03:06:03.972 | SUCCESS  | __main__:main:233 - All processing completed successfully
+2026-01-20 03:12:00.605 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 03:12:00.635 | INFO     | validation:validate_and_route_ids:83 - Found 8 unique bundle IDs
+2026-01-20 03:12:00.688 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:12:00.688 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:12:00.695 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:12:00.695 | INFO     | validation:validate_and_route_ids:140 -   apple: 4 IDs
+2026-01-20 03:12:00.697 | INFO     | validation:validate_and_route_ids:140 -   android: 4 IDs
+2026-01-20 03:12:00.698 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:12:00.698 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:12:00.718 | INFO     | validation:validate_and_route_ids:169 - Saved 4 IDs to apple store file
+2026-01-20 03:12:00.724 | INFO     | validation:validate_and_route_ids:169 - Saved 4 IDs to android store file
+2026-01-20 03:12:00.729 | INFO     | validation:validate_and_route_ids:169 - Saved 4 IDs to roku store file
+2026-01-20 03:12:00.741 | INFO     | validation:validate_and_route_ids:169 - Saved 4 IDs to lg store file
+2026-01-20 03:12:00.754 | INFO     | validation:validate_and_route_ids:169 - Saved 4 IDs to gallaxy store file
+2026-01-20 03:12:00.755 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:12:00.755 | INFO     | __main__:main:179 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:12:00.770 | INFO     | __main__:main:201 - Processing apple with 4 IDs
+2026-01-20 03:12:00.779 | INFO     | store_validator.apple_store:process:184 - Processing 4 Apple bundle IDs
+2026-01-20 03:12:01.602 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 4 records
+2026-01-20 03:12:01.615 | INFO     | __main__:main:201 - Processing android with 4 IDs
+2026-01-20 03:12:01.628 | INFO     | store_validator.android_store:process:138 - Processing 4 Android bundle IDs
+2026-01-20 03:12:02.051 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.village.quest
+2026-01-20 03:12:02.108 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.gosub60.sol5spdr2
+2026-01-20 03:12:02.140 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=magic.friends.rainbow
+2026-01-20 03:12:02.165 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 03:12:04.229 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 4 records
+2026-01-20 03:12:04.233 | INFO     | __main__:main:207 - No bundle IDs for amazon
+2026-01-20 03:12:04.241 | INFO     | __main__:main:207 - No bundle IDs for microsoft
+2026-01-20 03:12:04.241 | INFO     | __main__:main:201 - Processing gallaxy with 4 IDs
+2026-01-20 03:12:04.249 | INFO     | store_validator.gallaxy:process:108 - Processing 4 Gallaxy bundle IDs
+2026-01-20 03:12:05.029 | INFO     | store_validator.gallaxy:process:116 - Saved 4 Gallaxy results
+2026-01-20 03:12:05.029 | INFO     | __main__:main:207 - No bundle IDs for samsung
+2026-01-20 03:12:05.037 | INFO     | __main__:main:207 - No bundle IDs for zeasn
+2026-01-20 03:12:05.037 | INFO     | __main__:main:207 - No bundle IDs for vizio
+2026-01-20 03:12:05.045 | INFO     | __main__:main:201 - Processing roku with 4 IDs
+2026-01-20 03:12:05.045 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 03:12:05.053 | INFO     | store_validator.roku:process:90 - Found 4 bundle IDs to process
+2026-01-20 03:12:05.750 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 4
+2026-01-20 03:12:05.766 | INFO     | __main__:main:201 - Processing lg with 4 IDs
+2026-01-20 03:12:05.766 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 03:12:05.774 | INFO     | store_validator.lgstore:process:55 - Found 4 bundle IDs to process
+2026-01-20 03:12:05.791 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 03:12:05.799 | INFO     | __main__:main:212 - Merging all outputs
+2026-01-20 03:12:05.799 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 03:12:05.799 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:12:05.924 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 03:12:05.929 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 03:12:05.931 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:12:05.960 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 03:12:05.961 | SUCCESS  | __main__:main:217 - All processing completed successfully
+2026-01-20 03:26:51.464 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 03:26:51.498 | INFO     | validation:validate_and_route_ids:83 - Found 4 unique bundle IDs
+2026-01-20 03:26:51.545 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:26:51.545 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:26:51.545 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:26:51.545 | INFO     | validation:validate_and_route_ids:140 -   apple: 3 IDs
+2026-01-20 03:26:51.545 | INFO     | validation:validate_and_route_ids:140 -   android: 1 IDs
+2026-01-20 03:26:51.545 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:26:51.553 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:26:51.570 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to apple store file
+2026-01-20 03:26:51.570 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to android store file
+2026-01-20 03:26:51.578 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to roku store file
+2026-01-20 03:26:51.594 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to lg store file
+2026-01-20 03:26:51.602 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to gallaxy store file
+2026-01-20 03:26:51.610 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:26:51.610 | INFO     | __main__:main:179 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:26:51.624 | INFO     | __main__:main:201 - Processing apple with 3 IDs
+2026-01-20 03:26:51.627 | INFO     | store_validator.apple_store:process:184 - Processing 3 Apple bundle IDs
+2026-01-20 03:26:53.377 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 3 records
+2026-01-20 03:26:53.396 | INFO     | __main__:main:201 - Processing android with 1 IDs
+2026-01-20 03:26:53.398 | INFO     | store_validator.android_store:process:138 - Processing 1 Android bundle IDs
+2026-01-20 03:26:54.024 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 03:26:56.065 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 1 records
+2026-01-20 03:26:56.065 | INFO     | __main__:main:207 - No bundle IDs for amazon
+2026-01-20 03:26:56.077 | INFO     | __main__:main:207 - No bundle IDs for microsoft
+2026-01-20 03:26:56.082 | INFO     | __main__:main:201 - Processing gallaxy with 1 IDs
+2026-01-20 03:26:56.082 | INFO     | store_validator.gallaxy:process:108 - Processing 1 Gallaxy bundle IDs
+2026-01-20 03:26:57.278 | INFO     | store_validator.gallaxy:process:116 - Saved 1 Gallaxy results
+2026-01-20 03:26:57.285 | INFO     | __main__:main:207 - No bundle IDs for samsung
+2026-01-20 03:26:57.290 | INFO     | __main__:main:207 - No bundle IDs for zeasn
+2026-01-20 03:26:57.300 | INFO     | __main__:main:207 - No bundle IDs for vizio
+2026-01-20 03:26:57.305 | INFO     | __main__:main:201 - Processing roku with 3 IDs
+2026-01-20 03:26:57.305 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 03:26:57.308 | INFO     | store_validator.roku:process:90 - Found 3 bundle IDs to process
+2026-01-20 03:26:58.070 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 3
+2026-01-20 03:26:58.087 | INFO     | __main__:main:201 - Processing lg with 3 IDs
+2026-01-20 03:26:58.087 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 03:26:58.096 | INFO     | store_validator.lgstore:process:55 - Found 3 bundle IDs to process
+2026-01-20 03:26:58.115 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 03:26:58.123 | INFO     | __main__:main:212 - Merging all outputs
+2026-01-20 03:26:58.128 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 03:26:58.128 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:26:58.193 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 03:26:58.207 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 03:26:58.207 | INFO     | __main__:merge_outputs:95 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:26:58.246 | SUCCESS  | __main__:merge_outputs:128 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 03:26:58.246 | SUCCESS  | __main__:main:217 - All processing completed successfully
+2026-01-20 03:26:58.246 | INFO     | __main__:main:220 - Removed temporary merged file
+2026-01-20 03:40:47.706 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: test.xlsx
+2026-01-20 03:40:48.319 | INFO     | validation:validate_and_route_ids:83 - Found 43 unique bundle IDs
+2026-01-20 03:40:48.377 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:40:48.386 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:40:48.413 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:40:48.413 | INFO     | validation:validate_and_route_ids:140 -   apple: 16 IDs
+2026-01-20 03:40:48.413 | INFO     | validation:validate_and_route_ids:140 -   android: 27 IDs
+2026-01-20 03:40:48.420 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:40:48.420 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:40:48.438 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to apple store file
+2026-01-20 03:40:48.450 | INFO     | validation:validate_and_route_ids:169 - Saved 27 IDs to android store file
+2026-01-20 03:40:48.465 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to roku store file
+2026-01-20 03:40:48.483 | INFO     | validation:validate_and_route_ids:169 - Saved 16 IDs to lg store file
+2026-01-20 03:40:48.491 | INFO     | validation:validate_and_route_ids:169 - Saved 27 IDs to gallaxy store file
+2026-01-20 03:40:48.500 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:40:48.500 | INFO     | __main__:main:187 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:40:48.500 | INFO     | __main__:main:204 - Starting store processing
+2026-01-20 03:40:48.508 | INFO     | __main__:main:213 - Processing apple with 16 IDs
+2026-01-20 03:40:48.516 | INFO     | store_validator.apple_store:process:184 - Processing 16 Apple bundle IDs
+2026-01-20 03:52:12.995 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 03:52:13.020 | INFO     | validation:validate_and_route_ids:83 - Found 4 unique bundle IDs
+2026-01-20 03:52:13.068 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:52:13.068 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:52:13.068 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:52:13.077 | INFO     | validation:validate_and_route_ids:140 -   apple: 3 IDs
+2026-01-20 03:52:13.078 | INFO     | validation:validate_and_route_ids:140 -   android: 1 IDs
+2026-01-20 03:52:13.078 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:52:13.079 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:52:13.101 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to apple store file
+2026-01-20 03:52:13.103 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to android store file
+2026-01-20 03:52:13.120 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to roku store file
+2026-01-20 03:52:13.130 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to lg store file
+2026-01-20 03:52:13.136 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to gallaxy store file
+2026-01-20 03:52:13.136 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:52:13.146 | INFO     | __main__:main:191 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:52:13.152 | INFO     | __main__:main:213 - Processing apple with 3 IDs
+2026-01-20 03:52:13.152 | INFO     | store_validator.apple_store:process:184 - Processing 3 Apple bundle IDs
+2026-01-20 03:52:14.741 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 3 records
+2026-01-20 03:52:14.741 | INFO     | __main__:main:213 - Processing android with 1 IDs
+2026-01-20 03:52:14.756 | INFO     | store_validator.android_store:process:138 - Processing 1 Android bundle IDs
+2026-01-20 03:52:15.177 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 03:52:17.236 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 1 records
+2026-01-20 03:52:17.236 | INFO     | __main__:main:219 - No bundle IDs for amazon
+2026-01-20 03:52:17.244 | INFO     | __main__:main:219 - No bundle IDs for microsoft
+2026-01-20 03:52:17.244 | INFO     | __main__:main:213 - Processing gallaxy with 1 IDs
+2026-01-20 03:52:17.252 | INFO     | store_validator.gallaxy:process:108 - Processing 1 Gallaxy bundle IDs
+2026-01-20 03:52:18.326 | INFO     | store_validator.gallaxy:process:116 - Saved 1 Gallaxy results
+2026-01-20 03:52:18.334 | INFO     | __main__:main:219 - No bundle IDs for samsung
+2026-01-20 03:52:18.342 | INFO     | __main__:main:219 - No bundle IDs for zeasn
+2026-01-20 03:52:18.342 | INFO     | __main__:main:219 - No bundle IDs for vizio
+2026-01-20 03:52:18.351 | INFO     | __main__:main:213 - Processing roku with 3 IDs
+2026-01-20 03:52:18.351 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 03:52:18.351 | INFO     | store_validator.roku:process:90 - Found 3 bundle IDs to process
+2026-01-20 03:52:19.052 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 3
+2026-01-20 03:52:19.070 | INFO     | __main__:main:213 - Processing lg with 3 IDs
+2026-01-20 03:52:19.074 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 03:52:19.074 | INFO     | store_validator.lgstore:process:55 - Found 3 bundle IDs to process
+2026-01-20 03:52:19.096 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 03:52:19.099 | INFO     | __main__:main:224 - Merging all outputs
+2026-01-20 03:52:19.099 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'gallaxy.parquet']
+2026-01-20 03:52:19.139 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 03:52:19.182 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 03:52:19.182 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:52:19.219 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 03:52:19.219 | SUCCESS  | __main__:main:229 - All processing completed successfully
+2026-01-20 03:52:19.228 | INFO     | __main__:main:232 - Removed temporary merged file
+2026-01-20 03:54:54.617 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 03:54:54.649 | INFO     | validation:validate_and_route_ids:83 - Found 4 unique bundle IDs
+2026-01-20 03:54:54.696 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 03:54:54.699 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 03:54:54.705 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 03:54:54.705 | INFO     | validation:validate_and_route_ids:140 -   apple: 3 IDs
+2026-01-20 03:54:54.705 | INFO     | validation:validate_and_route_ids:140 -   android: 1 IDs
+2026-01-20 03:54:54.705 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 03:54:54.705 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 03:54:54.716 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to apple store file
+2026-01-20 03:54:54.727 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to android store file
+2026-01-20 03:54:54.741 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to roku store file
+2026-01-20 03:54:54.749 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to lg store file
+2026-01-20 03:54:54.758 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to gallaxy store file
+2026-01-20 03:54:54.766 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 03:54:54.766 | INFO     | __main__:main:191 - Routing completed. Files saved to: routed_ids
+2026-01-20 03:54:54.774 | INFO     | __main__:main:213 - Processing apple with 3 IDs
+2026-01-20 03:54:54.774 | INFO     | store_validator.apple_store:process:184 - Processing 3 Apple bundle IDs
+2026-01-20 03:54:56.330 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 3 records
+2026-01-20 03:54:56.330 | INFO     | __main__:main:213 - Processing android with 1 IDs
+2026-01-20 03:54:56.339 | INFO     | store_validator.android_store:process:138 - Processing 1 Android bundle IDs
+2026-01-20 03:54:56.947 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 03:54:59.010 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 1 records
+2026-01-20 03:54:59.017 | INFO     | __main__:main:219 - No bundle IDs for amazon
+2026-01-20 03:54:59.017 | INFO     | __main__:main:219 - No bundle IDs for microsoft
+2026-01-20 03:54:59.025 | INFO     | __main__:main:213 - Processing gallaxy with 1 IDs
+2026-01-20 03:54:59.033 | INFO     | store_validator.gallaxy:process:108 - Processing 1 Gallaxy bundle IDs
+2026-01-20 03:54:59.528 | INFO     | store_validator.gallaxy:process:116 - Saved 1 Gallaxy results
+2026-01-20 03:54:59.533 | INFO     | __main__:main:219 - No bundle IDs for samsung
+2026-01-20 03:54:59.533 | INFO     | __main__:main:219 - No bundle IDs for zeasn
+2026-01-20 03:54:59.538 | INFO     | __main__:main:219 - No bundle IDs for vizio
+2026-01-20 03:54:59.538 | INFO     | __main__:main:213 - Processing roku with 3 IDs
+2026-01-20 03:54:59.538 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 03:54:59.545 | INFO     | store_validator.roku:process:90 - Found 3 bundle IDs to process
+2026-01-20 03:55:00.300 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 3
+2026-01-20 03:55:00.325 | INFO     | __main__:main:213 - Processing lg with 3 IDs
+2026-01-20 03:55:00.325 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 03:55:00.333 | INFO     | store_validator.lgstore:process:55 - Found 3 bundle IDs to process
+2026-01-20 03:55:00.358 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 03:55:00.363 | INFO     | __main__:main:225 - Merging all outputs
+2026-01-20 03:55:00.365 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'gallaxy.parquet']
+2026-01-20 03:55:00.416 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 03:55:00.425 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 03:55:00.425 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 03:55:00.457 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 03:55:00.457 | SUCCESS  | __main__:main:237 - All processing completed successfully
+2026-01-20 03:55:00.457 | INFO     | __main__:main:242 - Removed temporary merged file after processing
+2026-01-20 05:50:04.986 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 05:50:05.079 | INFO     | validation:validate_and_route_ids:83 - Found 4 unique bundle IDs
+2026-01-20 05:50:05.376 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 05:50:05.378 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 05:50:05.391 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 05:50:05.392 | INFO     | validation:validate_and_route_ids:140 -   apple: 3 IDs
+2026-01-20 05:50:05.392 | INFO     | validation:validate_and_route_ids:140 -   android: 1 IDs
+2026-01-20 05:50:05.393 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 05:50:05.393 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 05:50:05.435 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to apple store file
+2026-01-20 05:50:05.444 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to android store file
+2026-01-20 05:50:05.454 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to roku store file
+2026-01-20 05:50:05.473 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to lg store file
+2026-01-20 05:50:05.486 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to gallaxy store file
+2026-01-20 05:50:05.500 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 05:50:05.501 | INFO     | __main__:main:191 - Routing completed. Files saved to: routed_ids
+2026-01-20 05:50:05.507 | INFO     | __main__:main:213 - Processing apple with 3 IDs
+2026-01-20 05:50:05.510 | INFO     | store_validator.apple_store:process:184 - Processing 3 Apple bundle IDs
+2026-01-20 05:50:09.401 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 3 records
+2026-01-20 05:50:09.440 | INFO     | __main__:main:213 - Processing android with 1 IDs
+2026-01-20 05:50:09.445 | INFO     | store_validator.android_store:process:138 - Processing 1 Android bundle IDs
+2026-01-20 05:50:09.893 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 05:50:11.964 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 1 records
+2026-01-20 05:50:11.969 | INFO     | __main__:main:219 - No bundle IDs for amazon
+2026-01-20 05:50:11.978 | INFO     | __main__:main:219 - No bundle IDs for microsoft
+2026-01-20 05:50:11.985 | INFO     | __main__:main:213 - Processing gallaxy with 1 IDs
+2026-01-20 05:50:11.985 | INFO     | store_validator.gallaxy:process:108 - Processing 1 Gallaxy bundle IDs
+2026-01-20 05:50:13.352 | INFO     | store_validator.gallaxy:process:116 - Saved 1 Gallaxy results
+2026-01-20 05:50:13.352 | INFO     | __main__:main:219 - No bundle IDs for samsung
+2026-01-20 05:50:13.361 | INFO     | __main__:main:219 - No bundle IDs for zeasn
+2026-01-20 05:50:13.368 | INFO     | __main__:main:219 - No bundle IDs for vizio
+2026-01-20 05:50:13.377 | INFO     | __main__:main:213 - Processing roku with 3 IDs
+2026-01-20 05:50:13.377 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 05:50:13.385 | INFO     | store_validator.roku:process:90 - Found 3 bundle IDs to process
+2026-01-20 05:50:14.685 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 3
+2026-01-20 05:50:14.710 | INFO     | __main__:main:213 - Processing lg with 3 IDs
+2026-01-20 05:50:14.710 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 05:50:14.717 | INFO     | store_validator.lgstore:process:55 - Found 3 bundle IDs to process
+2026-01-20 05:50:14.750 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 05:50:14.755 | INFO     | __main__:main:225 - Merging all outputs
+2026-01-20 05:50:14.757 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'gallaxy.parquet']
+2026-01-20 05:50:14.843 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 05:50:14.846 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 05:50:14.881 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 05:50:14.889 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 05:50:14.889 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 05:50:14.946 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 05:50:14.946 | SUCCESS  | __main__:main:237 - All processing completed successfully
+2026-01-20 05:50:14.946 | INFO     | __main__:main:242 - Removed temporary merged file after processing
+2026-01-20 05:52:29.504 | INFO     | validation:validate_and_route_ids:70 - Reading Excel file: output\temp_input.xlsx
+2026-01-20 05:52:29.554 | INFO     | validation:validate_and_route_ids:83 - Found 4 unique bundle IDs
+2026-01-20 05:52:29.620 | INFO     | validation:validate_and_route_ids:87 - Cache contains 282 previously routed IDs
+2026-01-20 05:52:29.620 | INFO     | validation:validate_and_route_ids:95 - Starting bundle ID analysis
+2026-01-20 05:52:29.620 | INFO     | validation:validate_and_route_ids:137 - Routing summary:
+2026-01-20 05:52:29.620 | INFO     | validation:validate_and_route_ids:140 -   apple: 3 IDs
+2026-01-20 05:52:29.620 | INFO     | validation:validate_and_route_ids:140 -   android: 1 IDs
+2026-01-20 05:52:29.620 | INFO     | validation:validate_and_route_ids:151 - No new bundle IDs found to add to cache
+2026-01-20 05:52:29.628 | INFO     | validation:validate_and_route_ids:156 - Saving routed IDs to store files
+2026-01-20 05:52:29.644 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to apple store file
+2026-01-20 05:52:29.646 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to android store file
+2026-01-20 05:52:29.657 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to roku store file
+2026-01-20 05:52:29.661 | INFO     | validation:validate_and_route_ids:169 - Saved 3 IDs to lg store file
+2026-01-20 05:52:29.679 | INFO     | validation:validate_and_route_ids:169 - Saved 1 IDs to gallaxy store file
+2026-01-20 05:52:29.684 | SUCCESS  | validation:validate_and_route_ids:177 - All routing completed successfully
+2026-01-20 05:52:29.687 | INFO     | __main__:main:194 - Routing completed. Files saved to: routed_ids
+2026-01-20 05:52:29.687 | INFO     | __main__:main:216 - Processing apple with 3 IDs
+2026-01-20 05:52:29.695 | INFO     | store_validator.apple_store:process:184 - Processing 3 Apple bundle IDs
+2026-01-20 05:52:33.599 | SUCCESS  | store_validator.apple_store:process:199 - Apple Store data written to output\apple.parquet with 3 records
+2026-01-20 05:52:33.618 | INFO     | __main__:main:216 - Processing android with 1 IDs
+2026-01-20 05:52:33.624 | INFO     | store_validator.android_store:process:138 - Processing 1 Android bundle IDs
+2026-01-20 05:52:33.899 | INFO     | store_validator.android_store:fetch_with_retry:88 - [200] https://play.google.com/store/apps/details?id=com.murka.chinese.solitaire
+2026-01-20 05:52:35.975 | SUCCESS  | store_validator.android_store:process:147 - Android Store data written with 1 records
+2026-01-20 05:52:35.979 | INFO     | __main__:main:222 - No bundle IDs for amazon
+2026-01-20 05:52:35.986 | INFO     | __main__:main:222 - No bundle IDs for microsoft
+2026-01-20 05:52:35.991 | INFO     | __main__:main:216 - Processing gallaxy with 1 IDs
+2026-01-20 05:52:35.995 | INFO     | store_validator.gallaxy:process:108 - Processing 1 Gallaxy bundle IDs
+2026-01-20 05:52:37.579 | INFO     | store_validator.gallaxy:process:116 - Saved 1 Gallaxy results
+2026-01-20 05:52:37.585 | INFO     | __main__:main:222 - No bundle IDs for samsung
+2026-01-20 05:52:37.599 | INFO     | __main__:main:222 - No bundle IDs for zeasn
+2026-01-20 05:52:37.603 | INFO     | __main__:main:222 - No bundle IDs for vizio
+2026-01-20 05:52:37.609 | INFO     | __main__:main:216 - Processing roku with 3 IDs
+2026-01-20 05:52:37.609 | INFO     | store_validator.roku:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2026-01-20 05:52:37.617 | INFO     | store_validator.roku:process:90 - Found 3 bundle IDs to process
+2026-01-20 05:52:38.729 | INFO     | store_validator.roku:process:138 - Roku processing complete. Success: 0, Failures: 3
+2026-01-20 05:52:38.754 | INFO     | __main__:main:216 - Processing lg with 3 IDs
+2026-01-20 05:52:38.754 | INFO     | store_validator.lgstore:process:42 - Starting LG store processing for routed_ids\lg.parquet
+2026-01-20 05:52:38.761 | INFO     | store_validator.lgstore:process:55 - Found 3 bundle IDs to process
+2026-01-20 05:52:38.798 | INFO     | store_validator.lgstore:process:71 - LG validation data loaded with 3900 records
+2026-01-20 05:52:38.836 | INFO     | __main__:main:228 - Merging all outputs
+2026-01-20 05:52:38.858 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'gallaxy.parquet']
+2026-01-20 05:52:38.935 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_temp.parquet
+2026-01-20 05:52:38.943 | INFO     | __main__:load_existing_developer_urls:84 - Loaded 77 existing developer URLs from combined_permanent.parquet
+2026-01-20 05:52:38.951 | INFO     | __main__:merge_outputs:99 - Found Parquet files: ['android.parquet', 'apple.parquet', 'combined.parquet', 'combined_permanent.parquet', 'combined_temp.parquet', 'gallaxy.parquet']
+2026-01-20 05:52:38.992 | SUCCESS  | __main__:merge_outputs:139 - Merged output saved to: output\combined_permanent.parquet
+2026-01-20 05:52:38.992 | SUCCESS  | __main__:main:239 - All processing completed successfully
+2026-01-20 05:52:38.992 | INFO     | __main__:main:244 - Removed temporary merged file after processing

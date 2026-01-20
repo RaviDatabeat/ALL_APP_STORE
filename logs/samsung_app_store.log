@@ -1,0 +1,26 @@
+2025-10-07T09:00:07.239769-0400 INFO Samsung_app_store.py:setup_logger:41 - Logging started in file: logs\samsung_app_store.log
+2025-10-07T09:00:07.242579-0400 INFO Samsung_app_store.py:process:121 - Processing 22 Samsung bundle IDs
+2025-10-07T09:00:07.545362-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G19068012619/
+2025-10-07T09:00:07.564671-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G00002687241/
+2025-10-07T09:00:07.801482-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G16300008593/
+2025-10-07T09:00:07.820002-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G22332021078/
+2025-10-07T09:00:08.025713-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/g19171013163/
+2025-10-07T09:00:08.205689-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G22273020555/
+2025-10-07T09:00:08.322760-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G00023178028/
+2025-10-07T09:00:08.400975-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G21278018026/
+2025-10-07T09:00:08.523080-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G22242020250/
+2025-10-07T09:00:08.554916-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G19273013772/
+2025-10-07T09:00:08.580207-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G15147002586/
+2025-10-07T09:00:08.604229-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G22154019714/
+2025-10-07T09:00:08.690992-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G14363001015/
+2025-10-07T09:00:08.806604-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G20239015429/
+2025-10-07T09:00:08.839808-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G20238015421/
+2025-10-07T09:00:08.867732-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G21196017438/
+2025-10-07T09:00:08.891458-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G21196017434/
+2025-10-07T09:00:08.962463-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G21196017440/
+2025-10-07T09:00:09.063545-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G21239017778/
+2025-10-07T09:00:09.118997-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G14364001036/
+2025-10-07T09:00:09.179798-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G14364001029/
+2025-10-07T09:00:09.212613-0400 INFO Samsung_app_store.py:fetch_data:82 - [200] https://www.samsung.com/us/appstore/app/G14364001031/
+2025-10-07T09:00:09.241342-0400 INFO Samsung_app_store.py:process:129 - Saved 22 Samsung results
+2025-10-07T09:00:09.247698-0400 INFO main.py:main:171 - Processing zeasn with 1 IDs

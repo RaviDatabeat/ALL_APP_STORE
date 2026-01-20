@@ -1,0 +1,5 @@
+2025-10-07T09:00:09.253538-0400 INFO zeasn.py:setup_logger:52 - Logging started in file: logs\zeasn.log
+2025-10-07T09:00:09.256653-0400 INFO zeasn.py:process:152 - Processing 1 Zeasn bundle IDs
+2025-10-07T09:00:10.256530-0400 INFO zeasn.py:fetch_retry_retry:103 - [200] https://www.zeasn.tv/whaleeco/appstore/detail?appid=20007319
+2025-10-07T09:00:12.294173-0400 INFO zeasn.py:process:160 - Saved 1 Zeasn results
+2025-10-07T09:00:12.311930-0400 INFO main.py:main:171 - Processing vizio with 365 IDs

@@ -1,0 +1,122 @@
+2025-10-07T08:45:40.273379-0400 INFO amazon_store.py:setup_logger:85 - Logging started in file: logs\amazon_app.log
+2025-10-07T08:45:45.020133-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B019DCHDZK/
+2025-10-07T08:45:45.112905-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0BCNBYMJN/
+2025-10-07T08:45:45.126175-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B07YQDS1HQ/
+2025-10-07T08:45:45.142905-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B004Y1WCDE/
+2025-10-07T08:45:45.631985-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B07Q7N4GZG/
+2025-10-07T08:45:47.876748-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0C376H1B6/
+2025-10-07T08:45:47.965123-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0C3748N8K/
+2025-10-07T08:45:47.975671-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0DDQ635Q4/
+2025-10-07T08:45:48.148983-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b0bcnbymjn/
+2025-10-07T08:45:48.461245-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0C376RXYX/
+2025-10-07T08:45:50.814441-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B088P48ZG9/
+2025-10-07T08:45:50.975124-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B076DKHHYT/
+2025-10-07T08:45:51.041376-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0C374WXVW/
+2025-10-07T08:45:51.140038-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0B68ZLQLS/
+2025-10-07T08:45:51.227811-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0BGMMRFR5/
+2025-10-07T08:45:53.684552-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B097C4Z9LS/
+2025-10-07T08:45:53.738653-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B083F4YWPL/
+2025-10-07T08:45:53.997684-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B07MCGRF24/
+2025-10-07T08:45:54.165187-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B08DL34Q38/
+2025-10-07T08:45:54.400741-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0BR67C69L/
+2025-10-07T08:45:58.071380-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B09WJFMH7H/
+2025-10-07T08:45:58.576317-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B09M49SBYK/
+2025-10-07T08:45:58.720652-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0C3WRGN33/
+2025-10-07T08:45:58.962341-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B0BHZ3HDVD/
+2025-10-07T08:45:58.962838-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 1 failed for https://www.amazon.com/dp/B0BHZ3HDVD/: HTTP Error 404: 
+2025-10-07T08:45:58.963628-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B013MBOC4S/
+2025-10-07T08:46:00.885990-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0B17NRYMC/
+2025-10-07T08:46:01.390198-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B0B5VVLL9R/
+2025-10-07T08:46:01.493951-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B08BX8NHJZ/
+2025-10-07T08:46:01.494983-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 1 failed for https://www.amazon.com/dp/B08BX8NHJZ/: HTTP Error 404: 
+2025-10-07T08:46:01.704523-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B016DQUNP6/
+2025-10-07T08:46:01.705328-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 1 failed for https://www.amazon.com/dp/B016DQUNP6/: HTTP Error 404: 
+2025-10-07T08:46:04.159003-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/B09JWYWVPJ/
+2025-10-07T08:46:04.374372-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b01lyz2gd4/
+2025-10-07T08:46:04.678514-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07plktcvk/
+2025-10-07T08:46:04.791337-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00nmd0wb4/
+2025-10-07T08:46:04.843796-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07w9jyq53/
+2025-10-07T08:46:07.206328-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b08v5j5qqh/
+2025-10-07T08:46:07.470278-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00gjkmv9i/
+2025-10-07T08:46:07.713842-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b08wh4gb19/
+2025-10-07T08:46:07.782767-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g1yin5s/
+2025-10-07T08:46:07.920395-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b08znmwrw7/
+2025-10-07T08:46:10.047657-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00xwkiq56/
+2025-10-07T08:46:10.247648-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07mv2nfrt/
+2025-10-07T08:46:10.631785-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07mv261qj/
+2025-10-07T08:46:10.689399-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07wlkryc3/
+2025-10-07T08:46:10.899065-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07wd2jf8s/
+2025-10-07T08:46:12.979211-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b076x8fkxp/
+2025-10-07T08:46:13.111145-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07pk46hnq/
+2025-10-07T08:46:13.476410-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07dbbtdbs/
+2025-10-07T08:46:13.780311-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07pf8b5c3/
+2025-10-07T08:46:13.884927-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07pdc397j/
+2025-10-07T08:46:16.126223-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q65phnl/
+2025-10-07T08:46:16.286323-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q1gn1d2/
+2025-10-07T08:46:16.712135-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q9z46fc/
+2025-10-07T08:46:16.786863-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q3qwzzv/
+2025-10-07T08:46:17.055668-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q81k4wb/
+2025-10-07T08:46:18.920674-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q9y3h1r/
+2025-10-07T08:46:19.289263-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q2953py/
+2025-10-07T08:46:19.907301-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07qb14nbr/
+2025-10-07T08:46:19.940446-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q8fkpty/
+2025-10-07T08:46:19.998238-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07p94tjrx/
+2025-10-07T08:46:22.093344-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q8vf1kw/
+2025-10-07T08:46:22.472889-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q1hqghm/
+2025-10-07T08:46:22.743663-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07pzchzqd/
+2025-10-07T08:46:23.303141-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07p61yddq/
+2025-10-07T08:46:23.346023-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07pdc678y/
+2025-10-07T08:46:24.956477-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07py7j9q2/
+2025-10-07T08:46:25.288452-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07qcxd3yh/
+2025-10-07T08:46:25.908886-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g0tzmsu/
+2025-10-07T08:46:26.505593-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00oyum5fk/
+2025-10-07T08:46:28.728473-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/b00xwud7uu/
+2025-10-07T08:46:28.728923-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 1 failed for https://www.amazon.com/dp/b00xwud7uu/: HTTP Error 404: 
+2025-10-07T08:46:28.862422-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07vw8tnf5/
+2025-10-07T08:46:28.988819-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b01gepzus6/
+2025-10-07T08:46:29.075317-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07nzzw6lp/
+2025-10-07T08:46:32.067914-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/b00gbuo18u/
+2025-10-07T08:46:32.069014-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 1 failed for https://www.amazon.com/dp/b00gbuo18u/: HTTP Error 404: 
+2025-10-07T08:46:32.778476-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g23m1fq/
+2025-10-07T08:46:32.808831-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b08wj2kd5v/
+2025-10-07T08:46:33.213747-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g23grpq/
+2025-10-07T08:46:33.248635-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00ydancsk/
+2025-10-07T08:46:35.310695-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00p29kxt2/
+2025-10-07T08:46:35.578885-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07q36qgqp/
+2025-10-07T08:46:35.998814-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g23y68g/
+2025-10-07T08:46:36.109765-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00okemb0e/
+2025-10-07T08:46:36.150539-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07w4gzfvn/
+2025-10-07T08:46:38.656157-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00xwucf08/
+2025-10-07T08:46:38.685779-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07tmnwpbp/
+2025-10-07T08:46:38.826401-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07tx8whn8/
+2025-10-07T08:46:38.904684-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g24cfs8/
+2025-10-07T08:46:39.337239-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b014d6rxlu/
+2025-10-07T08:46:41.686946-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07w9k238b/
+2025-10-07T08:46:41.701038-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00p2fq9ey/
+2025-10-07T08:46:41.848903-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00g10laio/
+2025-10-07T08:46:41.933311-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b092vlg2sp/
+2025-10-07T08:46:42.563579-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00p2fqbt2/
+2025-10-07T08:46:44.563958-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b00p2fq98u/
+2025-10-07T08:46:44.848080-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07km1fjv4/
+2025-10-07T08:46:44.865161-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B0BHZ3HDVD/
+2025-10-07T08:46:44.865650-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 2 failed for https://www.amazon.com/dp/B0BHZ3HDVD/: HTTP Error 404: 
+2025-10-07T08:46:45.304223-0400 INFO amazon_store.py:fetch_meta_Data:161 - [200] https://www.amazon.com/dp/b07mv91f6j/
+2025-10-07T08:46:45.318024-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B08BX8NHJZ/
+2025-10-07T08:46:45.318495-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 2 failed for https://www.amazon.com/dp/B08BX8NHJZ/: HTTP Error 404: 
+2025-10-07T08:46:50.192724-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B016DQUNP6/
+2025-10-07T08:46:50.193743-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 2 failed for https://www.amazon.com/dp/B016DQUNP6/: HTTP Error 404: 
+2025-10-07T08:46:50.195815-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/b00xwud7uu/
+2025-10-07T08:46:50.196872-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 2 failed for https://www.amazon.com/dp/b00xwud7uu/: HTTP Error 404: 
+2025-10-07T08:46:50.198326-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B08BX8NHJZ/
+2025-10-07T08:46:50.199131-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 3 failed for https://www.amazon.com/dp/B08BX8NHJZ/: HTTP Error 404: 
+2025-10-07T08:46:50.199914-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B0BHZ3HDVD/
+2025-10-07T08:46:50.200326-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 3 failed for https://www.amazon.com/dp/B0BHZ3HDVD/: HTTP Error 404: 
+2025-10-07T08:46:50.201271-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/b00gbuo18u/
+2025-10-07T08:46:50.201735-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 2 failed for https://www.amazon.com/dp/b00gbuo18u/: HTTP Error 404: 
+2025-10-07T08:46:57.324554-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/b00gbuo18u/
+2025-10-07T08:46:57.325586-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 3 failed for https://www.amazon.com/dp/b00gbuo18u/: HTTP Error 404: 
+2025-10-07T08:46:57.327186-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/b00xwud7uu/
+2025-10-07T08:46:57.328068-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 3 failed for https://www.amazon.com/dp/b00xwud7uu/: HTTP Error 404: 
+2025-10-07T08:46:57.329871-0400 INFO amazon_store.py:fetch_meta_Data:161 - [404] https://www.amazon.com/dp/B016DQUNP6/
+2025-10-07T08:46:57.330729-0400 ERROR amazon_store.py:fetch_meta_Data:182 - Retry 3 failed for https://www.amazon.com/dp/B016DQUNP6/: HTTP Error 404: 
+2025-10-07T08:46:59.356587-0400 INFO main.py:main:171 - Processing microsoft with 5 IDs

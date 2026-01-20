@@ -1,0 +1,19 @@
+2025-10-07T08:46:59.361021-0400 INFO microsft_store.py:setup_logger:72 - Logging started in file: logs\microsoft_store.log
+2025-10-07T08:46:59.364163-0400 INFO microsft_store.py:process:171 - Processing 5 Microsoft bundle IDs
+2025-10-07T08:47:04.114069-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [200] https://apps.microsoft.com/detail/9nf6j13g5d52?hl=en-US&gl=US
+2025-10-07T08:47:04.949901-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [200] https://apps.microsoft.com/detail/9p59xj69cj1d?hl=en-US&gl=US
+2025-10-07T08:47:05.113132-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/964433932?hl=en-US&gl=US
+2025-10-07T08:47:05.114197-0400 ERROR microsft_store.py:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/964433932?hl=en-US&gl=US: HTTP Error 404: 
+2025-10-07T08:47:05.116992-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [200] https://apps.microsoft.com/detail/9nblggh3zzvf?hl=en-US&gl=US
+2025-10-07T08:47:05.956095-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/905401434?hl=en-US&gl=US
+2025-10-07T08:47:05.957175-0400 ERROR microsft_store.py:fetch_retry_Retry:144 - Retry 1 failed for https://apps.microsoft.com/detail/905401434?hl=en-US&gl=US: HTTP Error 404: 
+2025-10-07T08:47:07.577556-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/964433932?hl=en-US&gl=US
+2025-10-07T08:47:07.578279-0400 ERROR microsft_store.py:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/964433932?hl=en-US&gl=US: HTTP Error 404: 
+2025-10-07T08:47:12.250046-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/905401434?hl=en-US&gl=US
+2025-10-07T08:47:12.251115-0400 ERROR microsft_store.py:fetch_retry_Retry:144 - Retry 2 failed for https://apps.microsoft.com/detail/905401434?hl=en-US&gl=US: HTTP Error 404: 
+2025-10-07T08:47:12.377500-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/964433932?hl=en-US&gl=US
+2025-10-07T08:47:12.378561-0400 ERROR microsft_store.py:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/964433932?hl=en-US&gl=US: HTTP Error 404: 
+2025-10-07T08:47:16.727588-0400 INFO microsft_store.py:fetch_retry_Retry:123 - [404] https://apps.microsoft.com/detail/905401434?hl=en-US&gl=US
+2025-10-07T08:47:16.728653-0400 ERROR microsft_store.py:fetch_retry_Retry:144 - Retry 3 failed for https://apps.microsoft.com/detail/905401434?hl=en-US&gl=US: HTTP Error 404: 
+2025-10-07T08:47:18.741016-0400 INFO microsft_store.py:process:179 - Saved 3 Microsoft results
+2025-10-07T08:47:18.751344-0400 INFO main.py:main:171 - Processing gallaxy with 508 IDs

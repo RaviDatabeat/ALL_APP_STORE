@@ -1,0 +1,18 @@
+[project]
+name = "all-app-class"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4==4.14.2",
+    "curl_cffi==0.13.0",
+    "cython==3.1.6",
+    "ddgs==9.6.0",
+    "html5lib==1.1",
+    "httpx==0.28.1",
+    "loguru==0.7.3",
+    "lxml_html_clean==0.4.3",
+    "pandas==2.3.3",
+    "rapidfuzz==3.14.1"
+]

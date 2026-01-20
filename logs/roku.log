@@ -1,0 +1,10 @@
+2025-10-07T09:00:12.340663-0400 INFO roku.py:setup_logger:47 - Logging started in file: logs\roku.log
+2025-10-07T09:00:12.341093-0400 INFO roku.py:process:75 - Starting Roku store processing for routed_ids\roku.parquet
+2025-10-07T09:00:12.347115-0400 INFO roku.py:process:90 - Found 309 bundle IDs to process
+2025-10-07T09:00:17.164541-0400 INFO roku.py:process:138 - Roku processing complete. Success: 236, Failures: 73
+2025-10-07T09:00:17.186365-0400 INFO main.py:main:171 - Processing lg with 309 IDs
+2025-10-07T09:00:17.187048-0400 ERROR main.py:main:180 - Error processing lg: 'lgstoreManager' object has no attribute 'process'
+2025-10-07T09:00:17.188296-0400 INFO main.py:main:192 - Merging all outputs
+2025-10-07T09:00:17.189526-0400 INFO main.py:merge_outputs:77 - Found Parquet files: ['amazon.parquet', 'android.parquet', 'apple.parquet', 'gallaxy.parquet', 'microsoft.parquet', 'roku.parquet', 'samsung.parquet', 'zeasn.parquet']
+2025-10-07T09:00:17.338330-0400 SUCCESS main.py:merge_outputs:116 - Merged output saved to: output\combined.parquet
+2025-10-07T09:00:17.339558-0400 SUCCESS main.py:main:196 - All processing completed successfully
